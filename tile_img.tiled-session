@@ -1,0 +1,69 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "C:/Users/wingh/Desktop/spread/spreadsheet.tsx",
+    "expandedProjectPaths": [
+    ],
+    "file.lastUsedOpenFilter": "全部檔案 (*)",
+    "fileStates": {
+        "#spreadsheet": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "C:/Users/wingh/Desktop/spread/spreadsheet.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "portfolio/public/img/spawnPT.json": {
+            "expandedObjectLayers": [
+                3,
+                2
+            ],
+            "scale": 1,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 82,
+                "y": 1
+            }
+        },
+        "portfolio/public/img/spawnPT.json#spreadsheet": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "portfolio/public/spawnPT.json": {
+            "scale": 1.2542968749999999,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 317.30924945499845,
+                "y": 412.9803799439427
+            }
+        },
+        "portfolio/public/spawnPT.json#spreadsheet": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        }
+    },
+    "last.imagePath": "C:/Users/wingh/Desktop/spread",
+    "map.height": 10,
+    "map.lastUsedFormat": "json",
+    "map.tileHeight": 64,
+    "map.tileWidth": 64,
+    "map.width": 10,
+    "openFiles": [
+        "C:/Users/wingh/Desktop/spread/spreadsheet.tsx"
+    ],
+    "project": "tile_img.tiled-project",
+    "recentFiles": [
+        "C:/Users/wingh/Desktop/spread/spreadsheet.tsx",
+        "portfolio/public/spawnPT.json",
+        "portfolio/public/img/spawnPT.json"
+    ],
+    "tileset.embedInMap": true,
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 64,
+        "width": 64
+    }
+}
