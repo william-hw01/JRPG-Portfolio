@@ -1,3 +1,4 @@
+import {Pstatus} from "./protagonistStatus.js"
 export function buildChar(k){
     return k.add([
         k.sprite("spreadsheet", 
@@ -5,16 +6,18 @@ export function buildChar(k){
             //add anime in later version
         ),  
         {
+            inSpawnBF:Pstatus.inSpawnBF,
             speed: 400,
             inDialogue: false,
-            inFight: false,//use in later version
+            inFight: Pstatus.inFight,//use in later version
             direction: "up",// use for anime in later 
             // version
             //add other property later
         },
         k.area({
-            shape: new k.Rect(k.vec2(0,-10),70,85),
+            shape: new k.Rect(k.vec2(0,0),17,19),
         }),
+        k.scale(4),
         k.body(),
         k.pos(), 
         "player",

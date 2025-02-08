@@ -1,8 +1,9 @@
 import {k} from "./kaboomCode.js"
 import spawn from "./map/spawn.js"
+import portfolioRM from "./map/portfolioRM.js"
 k.loadSprite("spreadsheet", "./spreadsheet.png",{
-    sliceX: 8,//may need change /w change in sprite sheet
-    sliceY: 8,//may need change /w change in sprite sheet
+    sliceX: 32,//may need change /w change in sprite sheet
+    sliceY: 32,//may need change /w change in sprite sheet
     //can add anims in later version
     anims: {
         "standby": 3,
@@ -12,11 +13,12 @@ k.loadSprite("spreadsheet", "./spreadsheet.png",{
 k.setBackground(k.Color.fromHex("#4AC6FF"));
 const map = {
     spawn,
+    portfolioRM,
 }
 
 for (const mapName in map) {
     k.scene(mapName, async () => map[mapName](k));
   }
-
-
-k.go("spawn");
+  k.go("portfolioRM");
+  
+ //k.go("spawn");
